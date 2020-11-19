@@ -9,10 +9,10 @@ public final class LicenseKeyController {
       new HStringCoder("UQDJERGV0RKh0SNxlTRBlUUNVVXZFWalTMzIDN2UzN5g").toString()
       /* => ABCDEFGHJKLMNPQRSTUVWXYZ123456789 */ ;
 
-  private static final String ALGO = new HStringCoder("0UBhTL1IgN$$").toString()/* => SHA-256 */ ;
+  private static final String ALGO = new HStringCoder("0UBhTL1IgN$$").toString() /* => SHA-256 */;
   private static final String ERR = new HStringCoder("2a5VGIldmbyVXYvRicmBWYslWZ$Q").toString()
       /* => key generator failed */ ;
-  private static String SEED = new HStringCoder("VRGp3btJGTil").toString()/* => EZFormLib */ ;
+  private static String SEED = new HStringCoder("VRGp3btJGTil").toString() /* => EZFormLib */;
 
   /**
    * Encode a value into a license key.

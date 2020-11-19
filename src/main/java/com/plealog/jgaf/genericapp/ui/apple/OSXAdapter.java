@@ -191,7 +191,7 @@ public class OSXAdapter implements InvocationHandler {
     } catch (
         Exception
             ex) { // Likely a NoSuchMethodException or an IllegalAccessException loading/invoking
-                  // eawt.Application methods
+      // eawt.Application methods
       EZLogger.warn("Mac OS X Adapter could not talk to EAWT:" + ex);
     }
   }
