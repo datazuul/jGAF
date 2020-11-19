@@ -8,3 +8,4 @@ shrinklog.xml
 jgaf*.zip
 logging.txt
 
+/target/

@@ -29,6 +29,14 @@ jGAF is provided with a free-to-use license for free and commercial softwares (s
 
 More: [www.plealog.com](www.plealog.com)
 
+# NOTES about this fork
+
+* Migration to Maven
+* introducing Maven code formatting plugin to guarantee uniform code formatting / comparability between commits
+* introducing subpackage `com.plealog.jgaf` to reflect productname in package path
+* move boilerplate license header to project wide LICENSE file (see <https://choosealicense.com/licenses/apache-2.0/>)
+
+
 # Tutorial
 
 You can have a look at [this project](https://github.com/pgdurand/jGAF-Tutorial) to see how to use the library.
