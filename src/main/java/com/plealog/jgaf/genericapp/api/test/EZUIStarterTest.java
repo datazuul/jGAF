@@ -20,7 +20,7 @@ public class EZUIStarterTest {
     EZGenericApplication.initialize("EZUIStarterTest");
 
     // to add an app starter listener, call EZUIStarter.setUIStarterListener();
-    EZEnvironment.setUIStarterListener(new MyStarteListener());
+    EZEnvironment.setUIStarterListener(new MyStarterListener());
 
     // to enable the Preferences Dialogue Box
     String confPath = EZFileUtils.terminatePath(System.getProperty("user.dir"));
@@ -51,10 +51,10 @@ public class EZUIStarterTest {
     EZGenericApplication.startApplication(args);
   }
 
-  private static class MyStarteListener implements EZUIStarterListener {
+  private static class MyStarterListener implements EZUIStarterListener {
     private EZSplashScreen splash;
 
-    private MyStarteListener() {}
+    private MyStarterListener() {}
 
     @Override
     public void preStart() {
